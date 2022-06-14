@@ -7,6 +7,7 @@
 }
 
 .header-logo {
+	text-decoration: none;
 }
 
 .header-nav {
@@ -19,21 +20,28 @@
 }
 
 .header-link {
+	text-decoration: none;
 }
 
 .header-group {
 	color: #757575;
 }
 
+.header-element {
+}
+
 .header-contact {
+	text-decoration: none;
 }
 
 .header-phone {
+	text-decoration: none;
 }
 
 .hero {
 	background-color: #2f303a;
 	color: #ffffff;
+	text-align: center;
 }
 
 .hero-title {
@@ -129,6 +137,7 @@
 }
 
 .footer-logo {
+	text-decoration: none;
 }
 
 .footer-group {
@@ -141,10 +150,17 @@
 }
 
 .footer-address {
+	text-decoration: none;
 }
 
 .footer-contact {
+	text-decoration: none;
 }
 
 .footer-phone {
+	text-decoration: none;
+}
+
+.link {
+	text-decoration: none;
 }
