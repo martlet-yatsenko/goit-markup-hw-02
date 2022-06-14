@@ -1,19 +1,150 @@
-body {
-    background-color: #FFFFFF;
-    font-family: 
-    color: #212121;
+.body {
+	background-color: #ffffff;
+	color: #212121;
 }
 
-.caption {
-    background-color: #2F303A;
-    color: #FFFFFF;
+.header {
+}
+
+.header-logo {
+}
+
+.header-nav {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+}
+
+.header-group {
+	color: #757575;
+}
+
+.header-contact {
+}
+
+.header-phone {
+}
+
+.hero {
+	background-color: #2f303a;
+	color: #ffffff;
+}
+
+.hero-title {
+}
+
+.hero-button {
+}
+
+.features {
+}
+
+.features-list {
+}
+
+.features-item {
+}
+
+.features-subtitle {
+}
+
+.features-desc {
+	color: #757575;
+}
+
+.services {
+}
+
+.services-title {
+}
+
+.services-list {
+}
+
+.services-item {
+}
+
+.services-img {
 }
 
 .team {
-    background-color: #F5F4FA;
+	background-color: #f5f4fa;
+}
+
+.team-title {
+}
+
+.team-list {
+}
+
+.team-item {
+}
+
+.team-img {
+}
+
+.team-group {
+}
+
+.team-caption {
+}
+
+.team-desc {
+}
+
+.portfolio {
+}
+
+.portfolio-buttons {
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-img {
+}
+
+.portfolio-group {
+}
+
+.portfolio-subtitle {
+}
+
+.portfolio-desc {
+	color: #757575;
 }
 
 .footer {
-    background-color: #2F303A;
-    color: #FFFFFF;
+	background-color: #2f303a;
+	color: #ffffff;
+}
+
+.footer-logo {
+}
+
+.footer-group {
+}
+
+.footer-list {
+}
+
+.footer-item {
+}
+
+.footer-address {
+}
+
+.footer-contact {
+}
+
+.footer-phone {
 }
