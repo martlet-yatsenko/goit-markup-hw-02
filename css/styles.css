@@ -8,6 +8,7 @@
 
 .header-logo {
 	text-decoration: none;
+	line-height: 31px;
 }
 
 .header-nav {
@@ -17,6 +18,7 @@
 }
 
 .header-item {
+	line-height: 16px;
 }
 
 .header-link {
@@ -28,6 +30,7 @@
 }
 
 .header-element {
+	line-height: 16px;
 }
 
 .header-contact {
@@ -45,9 +48,12 @@
 }
 
 .hero-title {
+	text-transform: uppercase;
+	line-height: 60px;
 }
 
 .hero-button {
+	line-height: 30px;
 }
 
 .features {
@@ -60,16 +66,20 @@
 }
 
 .features-subtitle {
+	text-transform: uppercase;
+	line-height: 16px;
 }
 
 .features-desc {
 	color: #757575;
+	line-height: 24px;
 }
 
 .services {
 }
 
 .services-title {
+	line-height: 42px;
 }
 
 .services-list {
@@ -86,6 +96,7 @@
 }
 
 .team-title {
+	line-height: 42px;
 }
 
 .team-list {
@@ -98,18 +109,22 @@
 }
 
 .team-group {
+	text-align: center;
+	line-height: 19px;
 }
 
 .team-caption {
 }
 
 .team-desc {
+	color: #757575;
 }
 
 .portfolio {
 }
 
 .portfolio-buttons {
+	text-align: center;
 }
 
 .portfolio-list {
@@ -138,6 +153,7 @@
 
 .footer-logo {
 	text-decoration: none;
+	line-height: 31px;
 }
 
 .footer-group {
@@ -151,14 +167,17 @@
 
 .footer-address {
 	text-decoration: none;
+	line-height: 24px;
 }
 
 .footer-contact {
 	text-decoration: none;
+	line-height: 24px;
 }
 
 .footer-phone {
 	text-decoration: none;
+	line-height: 24px;
 }
 
 .link {
