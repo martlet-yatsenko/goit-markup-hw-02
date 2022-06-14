@@ -1,4 +1,19 @@
 body {
-    font-family: ;
+    background-color: #FFFFFF;
+    font-family: 
     color: #212121;
+}
+
+.caption {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.footer {
+    background-color: #2F303A;
+    color: #FFFFFF;
 }
