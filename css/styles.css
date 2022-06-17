@@ -1,14 +1,28 @@
-.body {
+body {
+	font-size: 14px;
+	letter-spacing: 0, 03em;
+	font-family: "Roboto", sans-serif;
 	background-color: #ffffff;
 	color: #212121;
+}
+
+a {
+	text-decoration: none;
 }
 
 .header {
 }
 
 .header-logo {
+	font-family: "Raleway", sans-serif;
+	font-size: 26px;
 	text-decoration: none;
 	line-height: 31px;
+	color: #2196f3;
+}
+
+.header-logo > span {
+	color: #212121;
 }
 
 .header-nav {
@@ -21,24 +35,28 @@
 	line-height: 16px;
 }
 
-.header-link {
-	text-decoration: none;
+.header-item > a {
+	color: #212121;
+}
+
+.header-link:hover {
+	color: #2196f3;
 }
 
 .header-group {
-	color: #757575;
 }
 
-.header-element {
+.header-element > a {
+	color: #757575;
 	line-height: 16px;
 }
 
-.header-contact {
-	text-decoration: none;
+.header-contact:hover {
+	color: #2196f3;
 }
 
-.header-phone {
-	text-decoration: none;
+.header-phone:hover {
+	color: #2196f3;
 }
 
 .hero {
@@ -48,12 +66,18 @@
 }
 
 .hero-title {
+	font-size: 44px;
 	text-transform: uppercase;
 	line-height: 60px;
 }
 
 .hero-button {
+	font-size: 16px;
 	line-height: 30px;
+	background: #2196f3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	color: #ffffff;
 }
 
 .features {
@@ -79,6 +103,7 @@
 }
 
 .services-title {
+	font-size: 36px;
 	line-height: 42px;
 }
 
@@ -96,6 +121,7 @@
 }
 
 .team-title {
+	font-size: 36px;
 	line-height: 42px;
 }
 
@@ -109,6 +135,7 @@
 }
 
 .team-group {
+	font-size: 16px;
 	text-align: center;
 	line-height: 19px;
 }
@@ -124,7 +151,13 @@
 }
 
 .portfolio-buttons {
+	background: #f5f4fa;
+	border-radius: 4px;
 	text-align: center;
+}
+
+.portfolio-buttons:hover {
+	background: #2196f3;
 }
 
 .portfolio-list {
@@ -148,12 +181,15 @@
 
 .footer {
 	background-color: #2f303a;
-	color: #ffffff;
 }
 
 .footer-logo {
-	text-decoration: none;
+	color: #2196f3;
 	line-height: 31px;
+}
+
+.footer-logo > span {
+	color: #ffffff;
 }
 
 .footer-group {
@@ -163,23 +199,20 @@
 }
 
 .footer-item {
+	font-style: normal;
 }
 
 .footer-address {
-	text-decoration: none;
+	color: #ffffff;
 	line-height: 24px;
 }
 
 .footer-contact {
-	text-decoration: none;
+	color: rgba(255, 255, 255, 0.6);
 	line-height: 24px;
 }
 
 .footer-phone {
-	text-decoration: none;
+	color: rgba(255, 255, 255, 0.6);
 	line-height: 24px;
-}
-
-.link {
-	text-decoration: none;
 }
