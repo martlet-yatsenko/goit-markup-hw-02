@@ -1,9 +1,12 @@
 body {
-	font-size: 14px;
-	letter-spacing: 0, 03em;
 	font-family: "Roboto", sans-serif;
-	background-color: #ffffff;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
 	color: #212121;
+	background-color: #ffffff;
 }
 
 a {
@@ -35,11 +38,18 @@ a {
 	line-height: 16px;
 }
 
+.header-link {
+}
+
 .header-item > a {
 	color: #212121;
 }
 
 .header-link:hover {
+	color: #2196f3;
+}
+
+.header-link:focus {
 	color: #2196f3;
 }
 
@@ -55,7 +65,15 @@ a {
 	color: #2196f3;
 }
 
+.header-contact:focus {
+	color: #2196f3;
+}
+
 .header-phone:hover {
+	color: #2196f3;
+}
+
+.header-phone:focus {
 	color: #2196f3;
 }
 
@@ -72,6 +90,7 @@ a {
 }
 
 .hero-button {
+	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	line-height: 30px;
 	background: #2196f3;
@@ -156,8 +175,8 @@ a {
 	text-align: center;
 }
 
-.portfolio-buttons:hover {
-	background: #2196f3;
+.portfolio-btn {
+	font-family: "Roboto", sans-serif;
 }
 
 .portfolio-list {
@@ -184,6 +203,7 @@ a {
 }
 
 .footer-logo {
+	font-family: "Raleway", sans-serif;
 	color: #2196f3;
 	line-height: 31px;
 }
@@ -207,12 +227,36 @@ a {
 	line-height: 24px;
 }
 
+.footer-address:hover {
+	color: #2196f3;
+}
+
+.footer-address:focus {
+	color: #2196f3;
+}
+
 .footer-contact {
 	color: rgba(255, 255, 255, 0.6);
 	line-height: 24px;
 }
 
+.footer-contact:hover {
+	color: #2196f3;
+}
+
+.footer-contact:focus {
+	color: #2196f3;
+}
+
 .footer-phone {
 	color: rgba(255, 255, 255, 0.6);
 	line-height: 24px;
+}
+
+.footer-phone:hover {
+	color: #2196f3;
+}
+
+.footer-phone:focus {
+	color: #2196f3;
 }
