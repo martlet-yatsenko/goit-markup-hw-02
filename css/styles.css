@@ -18,9 +18,11 @@ a {
 
 .header-logo {
 	font-family: "Raleway", sans-serif;
+	font-style: normal;
+	font-weight: 700;
 	font-size: 26px;
-	text-decoration: none;
 	line-height: 31px;
+	text-decoration: none;
 	color: #2196f3;
 }
 
@@ -84,6 +86,7 @@ a {
 }
 
 .hero-title {
+	font-weight: 900;
 	font-size: 44px;
 	text-transform: uppercase;
 	line-height: 60px;
@@ -91,6 +94,7 @@ a {
 
 .hero-button {
 	font-family: "Roboto", sans-serif;
+	font-weight: 700;
 	font-size: 16px;
 	line-height: 30px;
 	background: #2196f3;
@@ -109,11 +113,14 @@ a {
 }
 
 .features-subtitle {
+	font-size: 14px;
+	font-weight: 700;
 	text-transform: uppercase;
 	line-height: 16px;
 }
 
 .features-desc {
+	font-weight: 400;
 	color: #757575;
 	line-height: 24px;
 }
@@ -122,6 +129,7 @@ a {
 }
 
 .services-title {
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 42px;
 }
@@ -140,6 +148,7 @@ a {
 }
 
 .team-title {
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 42px;
 }
@@ -160,9 +169,11 @@ a {
 }
 
 .team-caption {
+	font-size: 16px;
 }
 
 .team-desc {
+	font-weight: 400;
 	color: #757575;
 }
 
@@ -177,6 +188,7 @@ a {
 
 .portfolio-btn {
 	font-family: "Roboto", sans-serif;
+	font-size: 16px;
 }
 
 .portfolio-list {
@@ -192,9 +204,11 @@ a {
 }
 
 .portfolio-subtitle {
+	font-size: 18px;
 }
 
 .portfolio-desc {
+	font-size: 16px;
 	color: #757575;
 }
 
@@ -204,6 +218,8 @@ a {
 
 .footer-logo {
 	font-family: "Raleway", sans-serif;
+	font-size: 26px;
+	font-weight: 700;
 	color: #2196f3;
 	line-height: 31px;
 }
@@ -219,6 +235,7 @@ a {
 }
 
 .footer-item {
+	font-weight: 400;
 	font-style: normal;
 }
 
