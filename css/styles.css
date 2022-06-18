@@ -37,7 +37,6 @@ a {
 }
 
 .header-item {
-	line-height: 16px;
 }
 
 .header-link {
@@ -60,7 +59,6 @@ a {
 
 .header-element > a {
 	color: #757575;
-	line-height: 16px;
 }
 
 .header-contact:hover {
@@ -116,7 +114,6 @@ a {
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
-	line-height: 16px;
 }
 
 .features-desc {
@@ -189,6 +186,7 @@ a {
 .portfolio-btn {
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
+	line-height: 26px;
 }
 
 .portfolio-list {
@@ -205,10 +203,12 @@ a {
 
 .portfolio-subtitle {
 	font-size: 18px;
+	line-height: 36px;
 }
 
 .portfolio-desc {
 	font-size: 16px;
+	line-height: 30px;
 	color: #757575;
 }
 
@@ -237,11 +237,11 @@ a {
 .footer-item {
 	font-weight: 400;
 	font-style: normal;
+	line-height: 24px;
 }
 
 .footer-address {
 	color: #ffffff;
-	line-height: 24px;
 }
 
 .footer-address:hover {
@@ -254,7 +254,6 @@ a {
 
 .footer-contact {
 	color: rgba(255, 255, 255, 0.6);
-	line-height: 24px;
 }
 
 .footer-contact:hover {
@@ -267,7 +266,6 @@ a {
 
 .footer-phone {
 	color: rgba(255, 255, 255, 0.6);
-	line-height: 24px;
 }
 
 .footer-phone:hover {
