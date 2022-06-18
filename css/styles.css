@@ -152,6 +152,10 @@ a {
 	cursor: pointer;
 }
 
+.portfolio-btn:hover {
+	background: #2196f3;
+}
+
 .portfolio-subtitle {
 	font-size: 18px;
 	font-weight: 700;
