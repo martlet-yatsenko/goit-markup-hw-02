@@ -99,6 +99,7 @@ a {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	color: #ffffff;
+	cursor: pointer;
 }
 
 .features {
@@ -188,6 +189,7 @@ a {
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 26px;
+	cursor: pointer;
 }
 
 .portfolio-list {
