@@ -1,21 +1,23 @@
 body {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
-	line-height: 16px;
 	letter-spacing: 0.03em;
 	color: #212121;
-	background-color: #ffffff;
 }
 
 a {
 	text-decoration: none;
 }
 
+.header {
+	background-color: #ffffff;
+}
+
 .header-logo {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 31px;
+	line-height: 1.2;
 	text-decoration: none;
 	color: #2196f3;
 }
@@ -25,6 +27,7 @@ a {
 }
 
 .header-item {
+	line-height: 1.1;
 	font-weight: 500;
 	letter-spacing: 0.02em;
 }
@@ -46,6 +49,7 @@ a {
 }
 
 .header-element {
+	line-height: 1.1;
 	font-weight: 500;
 }
 
@@ -78,40 +82,49 @@ a {
 .hero-title {
 	font-weight: 900;
 	font-size: 44px;
+	line-height: 1.4;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
-	line-height: 60px;
 }
 
 .hero-button {
 	font-family: "Roboto", sans-serif;
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 1.9;
 	letter-spacing: 0.06em;
-	background: #2196f3;
+	background-color: #2196f3;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	color: #ffffff;
 	cursor: pointer;
 }
 
+.features {
+	background-color: #ffffff;
+}
+
 .features-subtitle {
 	font-size: 14px;
+	line-height: 1.9;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
 .features-desc {
 	font-weight: 400;
+	line-height: 1.7;
 	color: #757575;
-	line-height: 24px;
+}
+
+.services {
+	background-color: #ffffff;
 }
 
 .services-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 42px;
+	line-height: 1.2;
 }
 
 .team {
@@ -121,26 +134,39 @@ a {
 .team-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 42px;
+	line-height: 1.2;
 }
 
 .team-group {
-	font-size: 16px;
 	text-align: center;
-	line-height: 19px;
+}
+
+.team-item {
+	background-color: #ffffff;
+	/* material shadow v1 */
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
 }
 
 .team-caption {
 	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.2;
 }
 
 .team-desc {
+	font-size: 16px;
+	line-height: 1.2;
 	font-weight: 400;
 	color: #757575;
 }
 
+.portfolio {
+	background-color: #ffffff;
+}
+
 .portfolio-buttons {
-	background: #f5f4fa;
+	background-color: #f5f4fa;
 	border-radius: 4px;
 	text-align: center;
 }
@@ -149,35 +175,43 @@ a {
 	font-family: "Roboto", sans-serif;
 	font-size: 16px;
 	font-weight: 500;
-	font-style: normal;
-	line-height: 26px;
+	line-height: 1.6;
 	letter-spacing: 0.03em;
 	cursor: pointer;
 }
 
 .portfolio-btn:hover {
-	background: #2196f3;
+	background-color: #2196f3;
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	border-radius: 4px;
+	color: #ffffff;
 }
 
 .portfolio-btn:focus {
-	background: #2196f3;
+	background-color: #2196f3;
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	border-radius: 4px;
+	color: #ffffff;
+}
+
+.portfolio-item {
+	/* container bg */
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border: 1px solid #eeeeee;
 }
 
 .portfolio-subtitle {
 	font-size: 18px;
 	font-weight: 700;
-	line-height: 36px;
+	line-height: 2;
 	letter-spacing: 0.06em;
 }
 
 .portfolio-desc {
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 30px;
+	line-height: 1.9;
 	color: #757575;
 }
 
@@ -190,7 +224,7 @@ a {
 	font-size: 26px;
 	font-weight: 700;
 	color: #2196f3;
-	line-height: 31px;
+	line-height: 1.2;
 }
 
 .footer-logo > span {
@@ -200,7 +234,7 @@ a {
 .footer-item {
 	font-weight: 400;
 	font-style: normal;
-	line-height: 24px;
+	line-height: 1.7;
 }
 
 .footer-address {
