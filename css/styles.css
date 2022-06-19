@@ -9,6 +9,10 @@ a {
 	text-decoration: none;
 }
 
+.list {
+	list-style: none;
+}
+
 .header {
 	background-color: #ffffff;
 }
@@ -36,10 +40,11 @@ a {
 	color: #212121;
 }
 
-.header-link:hover {
+.current {
 	color: #2196f3;
 }
 
+.header-link:hover,
 .header-link:focus {
 	color: #2196f3;
 }
@@ -57,18 +62,12 @@ a {
 	color: #757575;
 }
 
-.header-contact:hover {
-	color: #2196f3;
-}
-
+.header-contact:hover,
 .header-contact:focus {
 	color: #2196f3;
 }
 
-.header-phone:hover {
-	color: #2196f3;
-}
-
+.header-phone:hover,
 .header-phone:focus {
 	color: #2196f3;
 }
@@ -241,10 +240,7 @@ a {
 	color: #ffffff;
 }
 
-.footer-address:hover {
-	color: #2196f3;
-}
-
+.footer-address:hover,
 .footer-address:focus {
 	color: #2196f3;
 }
@@ -253,10 +249,7 @@ a {
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contact:hover {
-	color: #2196f3;
-}
-
+.footer-contact:hover,
 .footer-contact:focus {
 	color: #2196f3;
 }
@@ -265,10 +258,7 @@ a {
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-phone:hover {
-	color: #2196f3;
-}
-
+.footer-phone:hover,
 .footer-phone:focus {
 	color: #2196f3;
 }
